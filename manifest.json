@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "name": "User Status Extension",
+  "description": "User Status Extension",
+  "permissions": [
+    "storage",
+    "tabs",
+    "https://*/*"
+  ],
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
